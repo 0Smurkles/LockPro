@@ -1,16 +1,9 @@
-print('Starting LockPro')
-
 local RunService = game:GetService('RunService')
 local ReplicatedStorage = game:GetService('ReplicatedStorage')
 local UserInputSerice = game:GetService('UserInputService')
 
-print('Loading getExploit.lua')
 local Exploit = loadstring(game:HttpGet('https://raw.githubusercontent.com/0Smurkles/LockPro/main/getExploit.lua'))()
-print('Loading _whitelist.lua')
 local LockProWhitelist = loadstring(game:HttpGet('https://raw.githubusercontent.com/0Smurkles/LockPro/main/_whitelist.lua'))()
-
-print('Loaded modules')
-print('Loading script')
 
 local Player = game.Players.LocalPlayer
 local Mouse = Player:GetMouse()
