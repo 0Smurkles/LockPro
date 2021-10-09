@@ -74,7 +74,7 @@ mt.__namecall = newcclosure(function(self,...)
 	local args = {...} --gets all arguments
 	
 	if method == 'FireServer' and args[1] == 'UpdateMousePos' and args[3] == nil then
-		return wait(9e9)
+		return
 	end
 	return namecall(self, ...)
 end)
@@ -102,7 +102,7 @@ RunService.Heartbeat:Connect(function()
 		local inside, guiDistance = checkInside(position)
 		if inside == true and distance < MaxDistance then
 			if guiDistance < Closest[1] then
-				local predictioned = Root.Position + (Root.Velocity / (_G.AveragePing * 0.05))
+				local predictioned = Root.Position + (Root.Velocity / (_G.AveragePing * 0.05)) + Vector3.new(0, math.random(-50,50) * 0.01, 0)
 				Closest = {guiDistance, predictioned}
 			end
 		end
