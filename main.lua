@@ -2,8 +2,8 @@ local RunService = game:GetService('RunService')
 local ReplicatedStorage = game:GetService('ReplicatedStorage')
 local UserInputSerice = game:GetService('UserInputService')
 
-local Exploit = loadstring(game:HttpGet('https://gist.githubusercontent.com/0Smurkles/b079dd4f84b5752543bdd607c881a711/raw/26f3eab5c758f059b8021e25218967ea636bb8be/getExploit.lua'))()
-local LockProWhitelist = loadstring(game:HttpGet('https://gist.githubusercontent.com/0Smurkles/b079dd4f84b5752543bdd607c881a711/raw/26f3eab5c758f059b8021e25218967ea636bb8be/_Whitelist.lua'))()
+local Exploit = loadstring(game:HttpGet('hhttps://raw.githubusercontent.com/0Smurkles/LockPro/main/getExploit.lua'))()
+local LockProWhitelist = loadstring(game:HttpGet('https://raw.githubusercontent.com/0Smurkles/LockPro/main/_whitelist.lua'))()
 
 local Player = game.Players.LocalPlayer
 local Mouse = Player:GetMouse()
