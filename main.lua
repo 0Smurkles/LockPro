@@ -69,10 +69,10 @@ local mainEvent = ReplicatedStorage:WaitForChild('MainEvent')
 --// Disable default UpdateMousePos
 local mt = getrawmetatable(game)
 
-if not make_writeable then
-	setreadonly(mt, false)
-else
+if Exploit == 'synapse' then
 	make_writeable(mt)
+elseif Exploit == 'krnl' then
+	setreadonly(mt, false)
 end
 
 local namecall =  mt.__namecall
