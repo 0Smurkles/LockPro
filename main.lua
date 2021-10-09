@@ -5,7 +5,6 @@ local ReplicatedStorage = game:GetService('ReplicatedStorage')
 local UserInputSerice = game:GetService('UserInputService')
 
 print('Loading getExploit.lua')
---local Exploit = loadstring(game:HttpGet('hhttps://raw.githubusercontent.com/0Smurkles/LockPro/main/getExploit.lua'))()
 print('Loading _whitelist.lua')
 local LockProWhitelist = loadstring(game:HttpGet('https://raw.githubusercontent.com/0Smurkles/LockPro/main/_whitelist.lua'))()
 
