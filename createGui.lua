@@ -470,6 +470,7 @@ LoadingStatus.TextWrapped = true
 local Returning = {
 	Gui = LockPro,
 	LoadingFrame = LoadingFrame,
+	MainFrame = MainFrame,
 	
 	Scroll = {
 		Radius = Radius,
