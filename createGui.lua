@@ -68,7 +68,7 @@ Title.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
 Title.BorderSizePixel = 0
 Title.Size = UDim2.new(0, 300, 0, 50)
 Title.Font = Enum.Font.TitilliumWeb
-Title.Text = '<b>Lock</b> <font color=\'rgb(255,0,0)\'>Pro</font>'
+Title.Text = '<b>Lock</b><font color=\'rgb(255,0,0)\'>Pro</font>'
 Title.RichText = true
 Title.TextColor3 = Color3.fromRGB(255, 255, 255)
 Title.TextScaled = true
@@ -457,8 +457,8 @@ LoadingStatus.Parent = LoadingFrame
 LoadingStatus.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 LoadingStatus.BackgroundTransparency = 1.000
 LoadingStatus.BorderSizePixel = 0
-LoadingStatus.Position = UDim2.new(0, 0, 0.852820039, 0)
-LoadingStatus.Size = UDim2.new(1, 0, 0.123234376, 0)
+LoadingStatus.Position = UDim2.new(0, 0, 0.883, 0)
+LoadingStatus.Size = UDim2.new(1, 0, 0.093, 0)
 LoadingStatus.Font = Enum.Font.SourceSansBold
 LoadingStatus.Text = 'Starting'
 LoadingStatus.TextColor3 = Color3.fromRGB(198, 198, 198)
