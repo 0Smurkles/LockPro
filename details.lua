@@ -1,6 +1,6 @@
 local module = {}
 
-module.Version = '0.1.0'
+module.Version = '0.1.1'
 module.Owner = 'LE0#0001'
 
 module.Defaults = {
