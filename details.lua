@@ -10,7 +10,8 @@ return {
   Ping = 120,
   LockingTo = 'UpperTorso',
   ToggleCircle = Enum.KeyCode.B,
-  ToggleMenu = Enum.KeyCode.M,}
+  ToggleMenu = Enum.KeyCode.M,
+}
 ]]
 
 module.LockingParts = {
