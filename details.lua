@@ -8,7 +8,7 @@ module.Defaults = {
   Distance = 100,
   Ping = 120,
   LockingTo = 'UpperTorso',
-  ToggleCircle = 'B',
+  ToggleCircle = 'N',
   ToggleMenu = 'M',
 }
 
