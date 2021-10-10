@@ -12,17 +12,6 @@ module.Defaults = {
   ToggleMenu = 'M',
 }
 
-module.String = [[
-return {
-  Radius = %s,
-  Distance = %s,
-  Ping = %s,
-  LockingTo = %s,
-  ToggleCircle = %s,
-  ToggleMenu = %s,
-}
-]]
-
 module.LockingParts = {
   'UpperTorso', 'LowerTorso', 'Head'
 }
