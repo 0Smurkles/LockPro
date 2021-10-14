@@ -2,6 +2,10 @@ local module = {}
 
 module.Version = '0.1.1'
 module.Owner = 'LE0#0001'
+module.ChangeLogs = {
+  'Fixed save system',
+  'Locking improvements',
+}
 
 module.Defaults = {
   Radius = 150,
