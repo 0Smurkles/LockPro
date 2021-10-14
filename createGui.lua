@@ -133,7 +133,7 @@ ChangeLogs.TextWrapped = true
 ChangeLogs.TextYAlignment = Enum.TextYAlignment.Top
 
 UITextSizeConstraint_2.Parent = ChangeLogs
-UITextSizeConstraint_2.MaxTextSize = 30
+UITextSizeConstraint_2.MaxTextSize = 20
 
 UICorner_3.Parent = CLFrame
 
