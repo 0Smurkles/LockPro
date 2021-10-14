@@ -56,7 +56,7 @@ local LoadingStatus = Instance.new("TextLabel")
 --Properties:
 
 LockPro.Name = "LockPro"
-LockPro.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+LockPro.Parent = game:GetService('CoreGui')
 LockPro.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 MainFrame.Name = "MainFrame"
