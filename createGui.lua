@@ -76,6 +76,7 @@ Title.BorderSizePixel = 0
 Title.Size = UDim2.new(1, 0, 0.125, 0)
 Title.Font = Enum.Font.TitilliumWeb
 Title.Text = "<b>Lock</b><font color=\"rgb(255,0,0)\">Pro</font>"
+Title.RichText = true
 Title.TextColor3 = Color3.fromRGB(255, 255, 255)
 Title.TextScaled = true
 Title.TextSize = 14.000
@@ -153,6 +154,7 @@ Owner.Position = UDim2.new(0.0166666675, 0, 0.0399999991, 0)
 Owner.Size = UDim2.new(0.478153288, 0, 1, 0)
 Owner.Font = Enum.Font.TitilliumWeb
 Owner.Text = "<b>By: <font color=\"rgb(255, 24, 24)\">LE0#0001</font></b>"
+Owner.RichText = true
 Owner.TextColor3 = Color3.fromRGB(255, 255, 255)
 Owner.TextScaled = true
 Owner.TextSize = 14.000
@@ -167,6 +169,7 @@ Version.Position = UDim2.new(0.49666664, 0, 0.0399999991, 0)
 Version.Size = UDim2.new(0.478153288, 0, 1, 0)
 Version.Font = Enum.Font.TitilliumWeb
 Version.Text = "<b><font color=\"rgb(255, 184, 16)\">V </font> 0.1.0</b>"
+Version.RichText = true
 Version.TextColor3 = Color3.fromRGB(255, 255, 255)
 Version.TextScaled = true
 Version.TextSize = 14.000
