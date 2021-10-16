@@ -19,7 +19,8 @@ module.Whitelisted = {
 	
 	-- Paid Access
 	
-	
+	-- Testing
+	['1619282181'] = 'FakedayGama',
 }
 
 return module
