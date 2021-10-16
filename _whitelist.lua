@@ -14,7 +14,10 @@ module.Whitelisted = {
 	['564938682'] = 'ySkxzx',
 	['563557636'] = 'Thrrxs',
 	
+	
 	-- Paid Access
+	['2329561797'] = 'ealtdog',
+	
 }
 
 return module
