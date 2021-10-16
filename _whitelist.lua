@@ -5,6 +5,7 @@ module.Whitelisted = {
 	['154220234'] = 'ySmurkles',
 	['2515727162'] = 'yHakuuI',
 	['1040765797'] = 'Kick_Tester',
+	['2865049250'] = 'Tester_Kick',
 	
 	-- Cortex Members
 	['672244259'] = 'yPaduu',
@@ -13,10 +14,11 @@ module.Whitelisted = {
 	['2514879625'] = '0nlyJoa0',
 	['564938682'] = 'ySkxzx',
 	['563557636'] = 'Thrrxs',
+	['2329561797'] = 'ealtdog',
 	
 	
 	-- Paid Access
-	['2329561797'] = 'ealtdog',
+	
 	
 }
 
