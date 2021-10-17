@@ -545,8 +545,20 @@ local Returning = {
 	},
 }
 
-function Returning:setLoadStatus(status)
+function Returning:setLoadStatus(status, time, color)
 	LoadingStatus.Text = status
+	
+	if color ~= nil then
+		LoadingStatus.TextColor3 = color
+	else
+		LoadingStatus.TextColor3 = Color3.fromRGB(255, 255, 255)
+	end
+
+	if time == nil then
+		wait(math.random(5, 20) * 0.1)
+	else
+		wait(time)
+	end
 end
 
 return Returning
