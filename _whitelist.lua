@@ -1,26 +1,7 @@
 local module = {}
 
 module.Whitelisted = {
-	-- Alts
-	['154220234'] = 'ySmurkles',
-	['2515727162'] = 'yHakuuI',
-	['1040765797'] = 'Kick_Tester',
-	['2865049250'] = 'Tester_Kick',
-	
-	-- Cortex Members
-	['672244259'] = 'yPaduu',
-	['2610042393'] = 'h4tyx4',
-	['252479400'] = 'yPoisoned',
-	['2514879625'] = '0nlyJoa0',
-	['564938682'] = 'ySkxzx',
-	['563557636'] = 'Thrrxs',
-	['2329561797'] = 'ealtdog',
-	
-	
-	-- Paid Access
-	
-	-- Testing
-	
+	['ab150ee4c1e072219018429ff83523ee47bc35e737bf136f943f8b92a18d84803f583e14d2faac1d844192997b4200fe3147d727b0213f0b3ed9e148617688ad'] = true,-- Leo
 }
 
 return module
